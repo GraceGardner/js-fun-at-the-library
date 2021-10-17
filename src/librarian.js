@@ -19,8 +19,6 @@ class Librarian {
       this.library.shelves.fiction,
       this.library.shelves.nonFiction)
 
-    console.log("kjlfkjaljlkdjlakjglkdfajf", booksAvailable)
-
       for (var i = 0; i < booksAvailable.length; i++){
         if (book == booksAvailable[i].title){
               this.library.shelves[booksAvailable[i].genre].splice(i, 1)
